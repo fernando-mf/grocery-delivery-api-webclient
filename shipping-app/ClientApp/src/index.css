@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Scandia';
+    src: local('Scandia'), url(./Fonts/Scandia/Regular/ScandiaWebRegular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Scandia';
+    src: local('Scandia'), url(./Fonts/Scandia/Bold/ScandiaWebBold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+* {
+    font-family: "Scandia";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414042;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    margin: 0 0 20px;
+}
+
+image, video {
+    width: 100%;
+}
+
+p {
+    color: #7B7B7B;
+    font-size: 16px;
+    letter-spacing: -.5px;
+    line-height: 25px;
+    margin: 0 0 20px;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,.2);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+    z-index: 0;
+}
